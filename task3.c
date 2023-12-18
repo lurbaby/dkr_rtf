@@ -10,7 +10,7 @@ int main() {
     setlocale(LC_ALL, "ukr");
 
     char input;
-    char str[1024] = "432423rwef23fwe234";
+    char str[1024];
 
     printf("Введіть текст (завершіть введення, натиснувши Ctrl+Z):\n");
 
