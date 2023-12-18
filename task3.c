@@ -30,5 +30,8 @@ int main() {
     }
 
     printf("знайдено %d цифр", result);
+    FILE *open_file = fopen("result.txt", "w");
+    fprintf(open_file, "%d", result);
+
 
 }
